@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-10 07:40+0000\n"
-"PO-Revision-Date: 2018-08-08 16:50+0200\n"
+"PO-Revision-Date: 2018-10-09 21:17+0200\n"
 "Last-Translator: Marco Marchiori <info@marcomarchiori.com>, 2018\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -557,7 +557,7 @@ msgstr "<span>riconciliazione</span>"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span>Reporting</span>"
-msgstr "<span>rapporti</span>"
+msgstr "<span>Rendicontazione</span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -1104,7 +1104,7 @@ msgstr "Conto"
 #. module: account
 #: model:ir.model,name:account.model_account_aged_trial_balance
 msgid "Account Aged Trial balance Report"
-msgstr "Rapporto situazione contabile con anzianita'"
+msgstr "Resoconto situazione contabile con anzianita' del credito - debito"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -1124,22 +1124,22 @@ msgstr "Saldo di chiusura estratto conto bancario"
 #. module: account
 #: model:ir.model,name:account.model_account_common_account_report
 msgid "Account Common Account Report"
-msgstr "Rapporto contabile comune"
+msgstr "Resoconto contabile comune"
 
 #. module: account
 #: model:ir.model,name:account.model_account_common_journal_report
 msgid "Account Common Journal Report"
-msgstr "Rapporto contabile comune"
+msgstr "Resoconto contabile comune"
 
 #. module: account
 #: model:ir.model,name:account.model_account_common_partner_report
 msgid "Account Common Partner Report"
-msgstr "Rapporto clente-fornitore comune"
+msgstr "Resoconto cliente-fornitore comune"
 
 #. module: account
 #: model:ir.model,name:account.model_account_common_report
 msgid "Account Common Report"
-msgstr "Rapporto contabile comune"
+msgstr "Resoconto contabile comune"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_currency_id model:ir.model.fields,field_description:account.field_account_account_template_currency_id
@@ -1227,12 +1227,12 @@ msgstr "Conto Cliente"
 #: model:ir.model,name:account.model_account_financial_report model:ir.model.fields,field_description:account.field_account_financial_report_children_ids model:ir.ui.view,arch_db:account.view_account_financial_report_form
 #: model:ir.ui.view,arch_db:account.view_account_financial_report_search model:ir.ui.view,arch_db:account.view_account_financial_report_tree
 msgid "Account Report"
-msgstr "Rapporto"
+msgstr "Resoconto"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_accounting_report_account_report_id model:ir.ui.menu,name:account.menu_account_financial_reports_tree
 msgid "Account Reports"
-msgstr "Rapporti"
+msgstr "Resoconti contabili"
 
 #. module: account
 #: model:ir.model,name:account.model_account_cash_rounding
@@ -2785,7 +2785,7 @@ msgstr "Ente commerciale"
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_common_menu
 msgid "Common Report"
-msgstr "Rapporto comune"
+msgstr "Resoconto comune"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_overdue_document
@@ -3822,7 +3822,7 @@ msgstr "Rilevato un codice fornitore duplicato. E' stata probabilmente registrat
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings_module_account_reports
 msgid "Dynamic Reports"
-msgstr "Rapporti dinamici."
+msgstr "Resoconti dinamici."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings_module_l10n_eu_service
@@ -4051,12 +4051,12 @@ msgstr "Conto finanziario"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_financial_report_style_overwrite
 msgid "Financial Report Style"
-msgstr "Stile rapporto contabile"
+msgstr "Stile resoconto"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_financial_report_tree model:ir.actions.act_window,name:account.action_account_report model:ir.ui.menu,name:account.menu_account_reports
 msgid "Financial Reports"
-msgstr "Rapporti contabili"
+msgstr "Documenti di bilancio"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company_account_setup_fy_data_done
@@ -4267,7 +4267,7 @@ msgstr "Mastro"
 #. module: account
 #: model:ir.model,name:account.model_account_report_general_ledger
 msgid "General Ledger Report"
-msgstr "Libro Mastro"
+msgstr "Mastro"
 
 #. module: account
 #: model:ir.ui.menu,name:account.menu_finance_entries_generate_entries
@@ -6356,7 +6356,7 @@ msgstr "Fatture in ritardo, la data di scadenza e' trascorsa"
 #. module: account
 #: model:ir.ui.menu,name:account.menu_finance_legal_statement
 msgid "PDF Reports"
-msgstr "Rapporti PDF"
+msgstr "Resoconti PDF"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -6399,7 +6399,7 @@ msgstr "Modello di contabilita' padre"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_financial_report_search
 msgid "Parent Report"
-msgstr "Rapporto padre"
+msgstr "Resoconto padre"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_parent_state
@@ -6854,7 +6854,7 @@ msgstr "Stampa fattura"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_common_journal_report_amount_currency model:ir.model.fields,help:account.field_account_print_journal_amount_currency
 msgid "Print Report with the currency column if the currency differs from the company currency."
-msgstr "Stampare il rapporto con la colonna valuta se la valuta e' diversa dalla moneta di conto"
+msgstr "Stampare il resoconto con la colonna valuta se la valuta e' diversa dalla moneta di conto"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -7231,32 +7231,32 @@ msgstr "Imposta in sostituzione"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_financial_report_form
 msgid "Report"
-msgstr "Rapporto"
+msgstr "Resoconto"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_financial_report_name
 msgid "Report Name"
-msgstr "Nome rapporto"
+msgstr "Nome resoconto"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_aged_balance_view model:ir.ui.view,arch_db:account.account_common_report_view
 msgid "Report Options"
-msgstr "Opzioni rapporto"
+msgstr "Opzioni resoconto"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_financial_report_search
 msgid "Report Type"
-msgstr "Tipo rapporto"
+msgstr "Tipo resoconto"
 
 #. module: account
 #: selection:account.financial.report,type:0 model:ir.model.fields,field_description:account.field_account_financial_report_account_report_id
 msgid "Report Value"
-msgstr "Valore rapporto"
+msgstr "Valuta Resoconto"
 
 #. module: account
 #: model:ir.ui.menu,name:account.account_report_folder model:ir.ui.menu,name:account.menu_finance_reports
 msgid "Reporting"
-msgstr "Rapporti"
+msgstr "Rendicontazione"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_cash_rounding_rounding
@@ -7721,7 +7721,7 @@ msgstr "Mostrare il registro nel pannello di controllo"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_financial_report_sign
 msgid "Sign on Reports"
-msgstr "Firma su rapporti"
+msgstr "Firma su resoconti"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -7994,12 +7994,12 @@ msgstr "Conto imposta riscossa"
 #. module: account
 #: model:ir.actions.report,name:account.action_report_account_tax model:ir.model,name:account.model_account_tax_report model:ir.ui.menu,name:account.menu_account_report model:ir.ui.view,arch_db:account.report_tax
 msgid "Tax Report"
-msgstr "Rapporto imposta"
+msgstr "Resoconto fiscale"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_tax_report
 msgid "Tax Reports"
-msgstr "Rapporti imposta"
+msgstr "Resoconti fiscali"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_template_type_tax_use model:ir.model.fields,field_description:account.field_account_tax_type_tax_use
@@ -9040,7 +9040,7 @@ msgstr "Situazione contabile"
 #. module: account
 #: model:ir.model,name:account.model_account_balance_report
 msgid "Trial Balance Report"
-msgstr "Rapporto situazione contabile"
+msgstr "Situazione contabile"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_template_user_type_id model:ir.model.fields,field_description:account.field_account_account_type_type model:ir.model.fields,field_description:account.field_account_account_user_type_id
