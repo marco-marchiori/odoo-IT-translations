@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-10 07:40+0000\n"
-"PO-Revision-Date: 2018-10-09 23:19+0200\n"
+"PO-Revision-Date: 2018-10-14 10:27+0200\n"
 "Last-Translator: Marco Marchiori <info@marcomarchiori.com>, 2018\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -621,7 +621,7 @@ msgid ""
 "                                         Run an <i>Aged Receivable report</i> and check which customers still owe you money."
 msgstr ""
 "<strong>controllare fatture non pagate</strong><br/>\n"
-"                                        avviare un<i>resoconto anzianita' crediti</i>e controllare quali clienti devono ancora pagare"
+"                                        avviare un<i>rapporto anzianita' crediti</i>e controllare quali clienti devono ancora pagare"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -1305,7 +1305,7 @@ msgstr "Tipo conto"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_user_type_id model:ir.model.fields,help:account.field_account_move_line_user_type_id
 msgid "Account Type is used for information purpose, to generate country-specific legal reports, and set the rules to close a fiscal year and generate opening entries."
-msgstr "Il tipo conto e' usato a scopi informativi, per generare resoconti specifici per paese, per impostare le regole di chiusura di un esercizio e per produrre le scritture di apertura."
+msgstr "Il tipo conto e' usato a scopi informativi, per generare rapporti specifici per paese, per impostare le regole di chiusura di un esercizio e per produrre le scritture di apertura."
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_type_form model:ir.model.fields,field_description:account.field_account_financial_report_account_type_ids
@@ -1565,7 +1565,7 @@ msgid ""
 "Aged Partner Balance is a more detailed report of your receivables by intervals. Odoo calculates a table of credit balance by start Date. So if you request an interval of 30 days Odoo generates an analysis of creditors for the past month, past two months, "
 "and so on."
 msgstr ""
-"Il saldo clienti- fornitori per anzianita' e' un resoconto che dettaglia per intervalli di anzianita' Odoo calcola una tabella di saldi classificandola per data iniziale. Se quindi viene richiesto un intervallo di 30gg Odoo genera un'analisi dei saldi a "
+"Il saldo clienti- fornitori per anzianita' e' un rapporto che dettaglia per intervalli di anzianita' Odoo calcola una tabella di saldi classificandola per data iniziale. Se quindi viene richiesto un intervallo di 30gg Odoo genera un'analisi dei saldi a "
 "credito per il mese passato, per i due mesi passati e cosi' via."
 
 #. module: account
@@ -1871,7 +1871,7 @@ msgstr "Analitici"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_tax_exigible
 msgid "Appears in VAT report"
-msgstr "Appare nel resoconto IVA"
+msgstr "Appare nella liquidazione IVA"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_tag_applicability
@@ -2881,7 +2881,7 @@ msgstr "Calcolo delle aliquote d'imposta sulla base dei codici ZIP statunitensi"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line_counterpart
 msgid "Compute the counter part accounts of this journal item for this journal entry. This can be needed in reports."
-msgstr "Indicazione della contropartita di questo movimento per questa registrazione. può essere richiesto nei resoconti"
+msgstr "Indicazione della contropartita di questo movimento per questa registrazione. può essere richiesto nella rendicontazione."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_balance_end
@@ -4205,7 +4205,7 @@ msgstr "Forzare tutti i movimenti in questo conto per avere questa valuta second
 #: code:addons/account/report/account_partner_ledger.py:74 code:addons/account/report/account_report_financial.py:149 code:addons/account/report/account_tax.py:13
 #, python-format
 msgid "Form content is missing, this report cannot be printed."
-msgstr "Manca il contenuto del modulo, il resoconto non si puo' stampare."
+msgstr "Manca il contenuto del modulo, il rapporto non si puo' stampare."
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:93
@@ -4226,12 +4226,12 @@ msgstr "Da conti di credito"
 #. module: account
 #: model:ir.actions.act_window,help:account.action_account_invoice_report_all_supp
 msgid "From this report, you can have an overview of the amount invoiced from your vendors. The search tool can also be used to personalise your Invoices reports and so, match this analysis to your needs."
-msgstr "Da questo resoconto si puo' avere una sintesi di quanto fatturato dai fornitori. Lo strumento di ricerca si puo' anche usare per personalizzare i rapporti fattura e cosi' per abbinare questa analisi alle vostre esigenze."
+msgstr "Da questo rapporto si puo' avere una sintesi di quanto fatturato dai fornitori. Lo strumento di ricerca si puo' anche usare per personalizzare i rapporti fattura e cosi' per abbinare questa analisi alle vostre esigenze."
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_account_invoice_report_all
 msgid "From this report, you can have an overview of the amount invoiced to your customers. The search tool can also be used to personalise your Invoices reports and so, match this analysis to your needs."
-msgstr "Da questo resoconto si puo' avere una sintesi di quanto fatturato ai clienti. Lo strumento di ricerca si puo' anche usare per personalizzare i rapporti fattura e cosi' per abbinare questa analisi alle vostre esigenze."
+msgstr "Da questo rapporto si puo' avere una sintesi di quanto fatturato ai clienti. Lo strumento di ricerca si puo' anche usare per personalizzare i rapporti fattura e cosi' per abbinare questa analisi alle vostre esigenze."
 
 #. module: account
 #: model:ir.model,name:account.model_account_full_reconcile model:ir.model.fields,field_description:account.field_account_partial_reconcile_full_reconcile_id
@@ -4990,7 +4990,7 @@ msgstr "Funziona come conto di default per l'importo DARE"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_report_partner_ledger_amount_currency
 msgid "It adds the currency column on report if the currency differs from the company currency."
-msgstr "Inserisce la colonna valuta nel resoconto se la valuta e' diversa dalla moneta di conto"
+msgstr "Inserisce la colonna valuta nel rapporto se la valuta e' diversa dalla moneta di conto"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_reconciled
@@ -5840,7 +5840,7 @@ msgstr "Narrazione"
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Navigate easily through reports and see what is behind the numbers"
-msgstr "Naviga facilmente nei resoconti e scopri cosa c'e' dietro i numeri"
+msgstr "Naviga facilmente nei rapporti e scopri cosa c'e' dietro i numeri"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_tax
@@ -6274,7 +6274,7 @@ msgstr "Creazione opzionale"
 #: model:ir.model.fields,help:account.field_account_account_tag_ids model:ir.model.fields,help:account.field_account_account_template_tag_ids model:ir.model.fields,help:account.field_account_tax_tag_ids
 #: model:ir.model.fields,help:account.field_account_tax_template_tag_ids
 msgid "Optional tags you may want to assign for custom reporting"
-msgstr "Tag opzionali assegnabili per resoconti personalizzati"
+msgstr "Tag opzionali assegnabili per rendicontazione personalizzata"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment_term_line_option model:ir.ui.view,arch_db:account.tax_adjustments_wizard
@@ -8087,12 +8087,12 @@ msgstr "Imposte, posizioni fiscali, piano dei conti &amp; documenti legali per i
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line_balance
 msgid "Technical field holding the debit - credit in order to open meaningful graph views from reports"
-msgstr "Campo tecnico contentente il DARE - AVERE per aprire -dai resoconti- viste grafiche sensate "
+msgstr "Campo tecnico contentente il DARE - AVERE per aprire -dai resoconti- viste grafiche significative"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line_balance_cash_basis
 msgid "Technical field holding the debit_cash_basis - credit_cash_basis in order to open meaningful graph views from reports"
-msgstr "Campo tecnico contentente il debit_cash_basis - credit_cash_basis  per aprire -dai resoconti- viste grafiche sensate"
+msgstr "Campo tecnico contentente il debit_cash_basis - credit_cash_basis  per aprire -dai resoconti- viste grafiche significative"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_move_name
@@ -8181,7 +8181,7 @@ msgid ""
 "Technical field used to mark a tax line as exigible in the vat report or not (only exigible journal items are displayed). By default all new journal items are directly exigible, but with the feature cash_basis on taxes, some will become exigible only when "
 "the payment is recorded."
 msgstr ""
-"Campo tecnico usato per contrassegnare una riga come esigibile o meno nel resoconto IVA  (solo i movimenti esigibili sono mostrati). Tutti i nuovi movimenti sono predeterminati direttamente esigibili ma con la funzionalita' di imposte per cassa alcuni "
+"Campo tecnico usato per contrassegnare una riga come esigibile o meno nella liquidazione IVA  (solo i movimenti esigibili sono mostrati). Tutti i nuovi movimenti sono predeterminati direttamente esigibili ma con la funzionalita' di imposte per cassa alcuni "
 "diventano esigibili solo alla registrazione del pagamento."
 
 #. module: account
@@ -8454,7 +8454,7 @@ msgid ""
 msgstr ""
 "L'opzione multi-valuta consente di spedire o ricevere fatture\n"
 "\t\tin valute differenti, impostare conti bancari esteri\n"
-"\t\te azionare resoconti su attivita' finanziarie estere."
+"\t\te produrre rapporti su attivita' finanziarie estere."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_name
@@ -8479,7 +8479,7 @@ msgstr "L'altra valuta opzionale se e' una registrazione multivaluta."
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line_quantity
 msgid "The optional quantity expressed by this line, eg: number of product sold. The quantity is not a legal requirement but is very useful for some reports."
-msgstr "La quantita' opzionale espressa in questa riga, ad esempio numero di prodotti venduti. La quantita' non e' richiesta legalmente ma e' molto utile per alcuni resconti."
+msgstr "La quantita' opzionale espressa in questa riga, ad esempio numero di prodotti venduti. La quantita' non e' richiesta legalmente ma e' molto utile per alcuni rapporti."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_account_id
@@ -8746,7 +8746,7 @@ msgstr "Questo registro contiene gia' movimenti, quindi l'abbreviazione non puo'
 #. module: account
 #: model:ir.model.fields,help:account.field_accounting_report_label_filter
 msgid "This label will be displayed on report to show the balance computed for the given comparison filter."
-msgstr "Questa etichetta verrà esposta nel resoconto per mostrare il saldo calcolato per questo filtro di comparazione."
+msgstr "Questa etichetta verrà esposta nel rapporto per mostrare il saldo calcolato per questo filtro di comparazione."
 
 #. module: account
 #: code:addons/account/models/account_payment.py:512
@@ -9248,8 +9248,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_type_include_initial_balance
 msgid "Used in reports to know if we should consider journal items from the beginning of time instead of from the fiscal year only. Account types that should be reset to zero at each new fiscal year (like expenses, revenue..) should not have this option set."
-msgstr ""
-"Usato nei resoconti per sapere se considerare movimenti da ogni data invece che per il corrente esercizio. I tipi conto che devono essere riportati a zero ad ogni nuovo esercizio (come costi, ricavi...) non dovrebbero avere selezionata questa opzione."
+msgstr "Usato nei rapporti per sapere se considerare movimenti da ogni data invece che per il corrente esercizio. I tipi conto che devono essere riportati a zero ad ogni nuovo esercizio (come costi, ricavi...) non dovrebbero avere selezionata questa opzione."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement_reference
@@ -9592,7 +9591,7 @@ msgstr "Puoi registrare pagamenti solo su fatture aperte."
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_report_style_overwrite
 msgid "You can set up here the format you want this record to be displayed. If you leave the automatic formatting, it will be computed based on the financial reports hierarchy (auto-computed field 'level')."
-msgstr "Puoi impostare qui il formato di visualizzazione per questo record. Lasciando la formattazione automatica verra' computato in base alla gerarchia dei resoconti finanziari (campo 'livello' calcolato automaticamente)."
+msgstr "Puoi impostare qui il formato di visualizzazione per questo record. Lasciando la formattazione automatica verra' computato in base alla gerarchia dei resoconti contabili (campo 'livello' calcolato automaticamente)."
 
 #. module: account
 #: code:addons/account/models/account_move.py:207
